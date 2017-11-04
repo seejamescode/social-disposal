@@ -1,0 +1,20 @@
+{
+  "name": "social-disposal",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "react": "^16.0.0",
+    "react-collapse": "^4.0.3",
+    "react-dom": "^16.0.0",
+    "react-motion": "^0.5.2",
+    "styled-components": "^2.2.2"
+  },
+  "devDependencies": {
+    "react-scripts": "1.0.14"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build && mv build docs",
+    "eject": "react-scripts eject"
+  }
+}
