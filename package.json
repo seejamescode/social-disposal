@@ -1,5 +1,6 @@
 {
   "name": "social-disposal",
+  "homepage": "https://seejamescode.github.io/social-disposal",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -14,7 +15,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build && mv build docs",
+    "build": "react-scripts build && gh-pages -d build",
     "eject": "react-scripts eject"
   }
 }
